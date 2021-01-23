@@ -1,7 +1,7 @@
 function myfunc_2(method)
 switch(method)
     case 'linear'
-        disp('线性方法')
+        disp('脧脽脨脭路陆路篓')
     case 'cubic'
-        disp('三次方法')
+        disp('脠媒麓脦路陆路篓')
 end
