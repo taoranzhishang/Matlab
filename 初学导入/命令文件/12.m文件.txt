@@ -1,0 +1,112 @@
+>> myfunc_7(3)
+
+ans =
+
+    30
+
+>> help myfunc_7
+ myfunc_7  输出输入数值与10的乘积
+   m文件操作演示
+
+>> sphere
+>> shading interp
+>> axis equal
+>> myfunc_8('sphere')
+>> myfunc_('cylinder')
+未定义函数或变量 'myfunc_'。
+ 
+>> myfunc_8('cylinder')
+>> myscript_1
+>> myfunc_9(10,-10)
+错误使用 disp
+输入参数太多。
+
+出错 myfunc_9 (line 2)
+disp(num1,num2)
+ 
+>> myfunc_9(10,-10)
+    10
+
+   -10
+
+>> num1=10;num2=-10
+
+num2 =
+
+   -10
+
+>> num1=10;num2=-10;
+>> myfunc_9(num1,num2)
+    10
+
+   -10
+
+>> num1
+
+num1 =
+
+    10
+
+>> num2
+
+num2 =
+
+   -10
+
+>> myfunc_10(num1)
+一个参数
+>> myfunc_10(num1,num2)
+两个参数
+>> myfuncj_11([1 2],[3 4],[5 6],[7 8])
+未定义函数或变量 'myfuncj_11'。
+ 
+是不是想输入:
+>> myfunc_11([1 2],[3 4],[5 6],[7 8])
+>> mat[1 2;3 4;5 6;7 8;9 10]
+ mat[1 2;3 4;5 6;7 8;9 10]
+    ↑
+错误: 表达式无效。调用函数或对变量进行索引时，请使用圆括号。否则，请检查不匹配的分隔符。
+ 
+>> mat=[1 2;3 4;5 6;7 8;9 10]
+
+mat =
+
+     1     2
+     3     4
+     5     6
+     7     8
+     9    10
+
+>> [n1,n2,n3,nu4,n5]=myfunc_12(mat)
+未定义函数或变量 'k'。
+
+出错 myfunc_12 (line 3)
+    varargout{k} = arrayin(k,:);
+ 
+>> [n1,n2,n3,nu4,n5]=myfunc_12(mat)
+
+n1 =
+
+     1     2
+
+
+n2 =
+
+     3     4
+
+
+n3 =
+
+     5     6
+
+
+nu4 =
+
+     7     8
+
+
+n5 =
+
+     9    10
+
+>> 
