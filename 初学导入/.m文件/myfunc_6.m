@@ -1,6 +1,6 @@
 function [avg,med] = myfunc_6(arr)
-%MYFUNC_6 此处显示有关此函数的摘要
-%   此处显示详细说明
+%MYFUNC_6 姝ゅ鏄剧ず鏈夊叧姝ゅ嚱鏁扮殑鎽樿
+%   姝ゅ鏄剧ず璇︾粏璇存槑
 LEN = length(arr);
 avg = mean(arr,LEN);
 med = median(arr,LEN);
