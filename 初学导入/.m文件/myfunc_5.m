@@ -3,5 +3,5 @@ try
     bl=and(1,'a',1);
     disp(bl)
 catch
-    error('参数过多')
+    error('虏脦脢媒鹿媒露脿')
 end
