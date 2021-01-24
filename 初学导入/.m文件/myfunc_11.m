@@ -1,7 +1,7 @@
 function myfunc_11(varargin)
 
 for i = 1:length(varargin)
-    x(i) = varargin{i}(1);%单元数组索引
+    x(i) = varargin{i}(1);%碌楼脭陋脢媒脳茅脣梅脪媒
     y(i) = varargin{i}(2);
 end
 x_min = min(0,min(x));
